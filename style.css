@@ -9,6 +9,10 @@
     src: url(Fonts/Quicksand-Regular.otf);
 }
 
+p.customfont { 
+    font-family: 'Quicksand';
+}
+
 /* Body Styling */
 body {
    font-family: Quicksand;
