@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bond Builder</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+ <!-- Header Section -->
+
+<!-- Main Content -->
+<main>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>&#127919; Bond Builder &#10024;</h1>
+            <h2>Find your team building activity!</h2>
+        </div>
+    </section>
+
+<!-- Search and Filter Section -->
+<section class="search-filter">
+    <input type="text" id="searchInput" placeholder="Search here or filter below">
+    <div class="filters">
+        <select id="activityTypeFilter" class="filter-button">
+            <option value="">Activity Type</option>
+            <option value="Adventure & Sports">Adventure & Sports</option>
+            <option value="Food & Culinary">Food & Culinary</option>
+            <option value="Crafts">Crafts</option>
+        </select>
+        <select id="costFilter" class="filter-button">
+            <option value="">Estimated Cost Per Pax</option>
+            <option value="$10-$20">$10-$20</option>
+            <option value="$20-$30">$20-$30</option>
+            <option value="$30-$40">$30-$40</option>
+            <option value="$40-$50">$40-$50</option>
+            <option value="$50-$80">$50-$80</option>
+            <option value="$80-$100">$80-$100</option>
+        </select>
+        <select id="paxFilter" class="filter-button">
+            <option value="">No. of Pax</option>
+            <option value="20">20</option>
+            <option value="20-50">20-50</option>
+            <option value="50-80">50-80</option>
+            <option value="80-100">80-100</option>
+            <option value="100+">100+</option>
+        </select>
+        <select id="durationFilter" class="filter-button">
+            <option value="">Estimated Duration</option>
+            <option value="1-2 hrs">1-2 hrs</option>
+            <option value="2-3 hrs">2-3 hrs</option>
+        </select>
+        <button id="resetFilters" class="reset-button">Reset Filters</button>
+    </div>
+    
+</section>
+
+<!-- Activity Cards Section -->
+<section class="activity-cards" id="activityCards">
+    <!-- Activity Card 1-->
+    <div class="activity-card" data-type="Adventure & Sports" data-cost="$30-$40" data-pax="100+" data-duration="2-3 hrs">
+        <h3>Adventure Trail/Race</h3>
+        <img src="https://i.im.ge/2025/01/06/zvUQFm.adventure-scavenger.jpeg" alt="Adventure Trail/Race" class="activity-image">
+        <h4>
+            • $30-$40 per pax<br>
+            • 100+ pax<br>
+            • 2-3 hrs
+        </h4>
+    </div>
+    <div class="activity-card" data-type="Adventure & Sports" data-cost="$30-$40" data-pax="100+" data-duration="2-3 hrs">
+        <h3>Archery Tag</h3>
+        <img src= "https://i.im.ge/2025/01/05/zHe64X.pixlr-image-generator-8e5009a0-2175-4525-90db-ab567e836f4e.webp" alt="Archery Tag" class="activity-image">
+        <h4>
+            • $30-$40 per pax<br>
+            • 100+ pax<br>
+            • 2-3 hrs
+        </h4>
+    </div>
+    <div class="activity-card" data-type="Adventure & Sports" data-cost="$20-$30" data-pax="100+" data-duration="1-2 hrs">
+        <h3>Bubble Soccer</h3>
+        <img src="https://i.im.ge/2025/01/05/zpOrby.bubble-soccer.webp" alt="Bubble Soccer" class="activity-image">
+        <h4>
+            • $20-$30 per pax<br>
+            • 100+ pax<br>
+            • 1-2 hrs
+        </h4>
+    </div>
+    <div class="activity-card" data-type="Adventure & Sports" data-cost="$30-$40" data-pax="20" data-duration="1-2 hrs">
+    <h3>Escape Room</h3>
+    <img src="https://i.im.ge/2025/01/06/zvUNoD.escape-room-2.jpeg" alt="Escape Room" class="activity-image">
+    <h4>
+        • $30-$40 per pax<br>
+        • 20 pax<br>
+        • 1-2 hrs
+    </h4>
+    </div>
+    <div class="activity-card" data-type="Adventure & Sports" data-cost="$20-$30" data-pax="100+" data-duration="1-2 hrs">
+    <h3>Laser Tag</h3>
+    <img src="https://i.im.ge/2025/01/05/zpOCC0.laser-tag.webp" alt="Laser Tag" class="activity-image">
+    <h4>
+        • $20-$30 per pax<br>
+        • 100+ pax<br>
+        • 1-2 hrs
+    </h4>
+    </div>
+    <div class="activity-card" data-type="Adventure & Sports" data-cost="$30-$40" data-pax="20-50" data-duration="1-2 hrs">
+        <h3>Obstacle Course</h3>
+        <img src=https://i.im.ge/2025/01/06/zvIN6M.obstacle-course-2.jpeg alt="Obstacle Course" class="activity-image">
+        <h4>
+            • $30-$40 per pax<br>
+            • 20-50 pax<br>
+            • 1-2 hrs
+        </h4>
+        </div>
+    <div class="activity-card" data-type="Adventure & Sports" data-cost="$10-$20" data-pax="100+" data-duration="1-2 hrs">
+            <h3>Cycling at East/West Coast Park</h3>
+            <img src="https://i.im.ge/2025/01/07/zvRECC.cycling.jpeg" alt="Cycling" class="activity-image">
+            <h4>
+                 • $10-$20 per pax<br>
+                 • 100+ pax<br>
+                 • 1-2 hrs
+            </h4>
+            </div>
+    <div class="activity-card" data-type="Adventure & Sports" data-cost="$40-$50" data-pax="100+" data-duration="1-2 hrs">
+        <h3>Paintball</h3>
+        <img src="https://i.im.ge/2025/01/06/zvUtYC.pixlr-image-generator-fcba501a-55bc-4f57-a950-557ebd581ee1.webp" alt="Paintball" class="activity-image">
+        <h4>
+             • $40-$50 per pax<br>
+             • 100+ pax<br>
+             • 1-2 hrs
+        </h4>
+        </div>
+    <div class="activity-card" data-type="Food & Culinary" data-cost="$80-$100" data-pax="20-50" data-duration="2-3 hrs">
+        <h3>Cooking/Baking</h3>
+        <img src="https://i.im.ge/2025/01/07/zvUyBq.cooking-baking-2.jpeg" alt="Cooking & Baking" class="activity-image">
+        <h4>
+            • $80-$100 per pax<br>
+            • 20-50 pax<br>
+            • 2-3 hrs
+        </h4>
+        </div>
+    <div class="activity-card" data-type="Food & Culinary" data-cost="$50-$80" data-pax="20-50" data-duration="2-3 hrs">
+            <h3>Ice Cream Making</h3>
+            <img src="https://i.im.ge/2025/01/07/zvUCsp.ice-cream-making.jpeg" alt="Ice Cream Making" class="activity-image">
+            <h4>
+                • $50-$80 per pax<br>
+                • 20-50 pax<br>
+                • 2-3 hrs
+            </h4>
+            </div>
+    <div class="activity-card" data-type="Food & Culinary" data-cost="$80-$100" data-pax="20" data-duration="1-2 hrs">
+            <h3>Latte Art Making</h3>
+            <img src="https://i.im.ge/2025/01/07/zvUEyP.latte-art.jpeg" alt="Latte Art Making" class="activity-image">
+            <h4>
+                • $80-$100 per pax<br>
+                • 20 pax<br>
+                • 1-2 hrs
+            </h4>
+            </div>
+        <div class="activity-card" data-type="Food & Culinary" data-cost="$40-$50" data-pax="100+" data-duration="1-2 hrs">
+            <h3>Tea Blending</h3>
+            <img src="https://i.im.ge/2025/01/07/zvUYOf.tea-blending.jpeg" alt="Tea Blending" class="activity-image">
+                <h4>
+                    • $40-$50 per pax<br>
+                    • 100+ pax<br>
+                    • 1-2 hrs
+                </h4>
+                </div>
+        <div class="activity-card" data-type="Crafts" data-cost="$30-$40" data-pax="20-50" data-duration="1-2 hrs">
+                <h3>Art Jamming</h3>
+                <img src="https://i.im.ge/2025/01/07/zvU8oW.art-jamming.jpeg" alt="Art Jamming" class="activity-image">
+                    <h4>
+                        • $30-$40 per pax<br>
+                        • 20-50 pax<br>
+                        • 1-2 hrs
+                     </h4>
+                    </div>
+        <div class="activity-card" data-type="Crafts" data-cost="$30-$40" data-pax="20-50" data-duration="1-2 hrs">
+                <h3>Pottery</h3>
+                <img src="https://i.im.ge/2025/01/07/zvUZBc.pottery.jpeg" alt="Pottery" class="activity-image">
+                    <h4>
+                        • $30-$40 per pax<br>
+                        • 20-50 pax<br>
+                        • 1-2 hrs
+                    </h4>
+                    </div>
+            <div class="activity-card" data-type="Crafts" data-cost="$80-$100" data-pax="20-50" data-duration="2-3 hrs">
+                    <h3>Rug Tufting</h3>
+                    <img src="https://i.im.ge/2025/01/07/zvUH1a.rug-tufting.webp" alt="Rug Tufting" class="activity-image">
+                    <h4>
+                        • $80-$100 per pax<br>
+                        • 20-50 pax<br>
+                        • 2-3 hrs
+                    </h4>
+                    </div>
+            <div class="activity-card" data-type="Crafts" data-cost="$30-$40" data-pax="100+" data-duration="1-2 hrs">
+                    <h3>Terrarium Making</h3>
+                    <img src="https://i.im.ge/2025/01/07/zvUnXS.terrarium.jpeg" alt="Terrarium Making" class="activity-image">
+                    <h4>
+                        • $30-$40 per pax<br>
+                        • 100+ pax<br>
+                        • 1-2 hrs
+                    </h4>
+                    </div>
+            <div class="activity-card" data-type="Crafts" data-cost="$80-$100" data-pax="100+" data-duration="1-2 hrs">
+                    <h3>Perfume Making</h3>
+                    <img src="https://i.im.ge/2025/01/07/zvUGGF.perfume-making.jpeg" alt="Perfume Making" class="activity-image">
+                    <h4>
+                        • $80-$100 per pax<br>
+                        • 100+ pax<br>
+                        • 1-2 hrs
+                    </h4>
+                    </div>
+</section>
+<br>
+<section class="hero">
+    <div class="hero-text">
+        <h5>Disclaimer: This website is created for learning purposes only. <br> 
+            The information provided here should not be considered professional advice. <br>
+            Please note that we make no guarantees regarding the accuracy, completeness, or reliability of the contents of this website. <br>
+            Any actions you take based on the contents of this website are at your own risk. We are not liable for any losses or damages incurred from the use of this website.</h5>
+</div>
+<br>
+
+
+
+</main>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+    
+</body>
+</html>
