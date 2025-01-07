@@ -1,0 +1,166 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url(Fonts/Quicksand-Regular.otf);
+}
+
+/* Body Styling */
+body {
+   font-family: Quicksand;
+   background-color: rgba(255, 250, 240, 0.739);
+   color: #333;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+/* Header Styling */
+
+
+
+/* Hero Section Styling */
+.hero {
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    font-family: Quicksand;
+    font-weight: bolder;
+    color: #333;
+    align-items: center;
+    text-align: center
+
+}
+
+.hero-text h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text h5 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* Search and Filter Section Styling */
+.search-filter {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: Quicksand;
+    text-align: center
+    
+}
+
+.search-filter input {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid rgba(0, 128, 128, 0.316);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Quicksand;
+    font-weight: bold
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    font-weight: bold
+}
+
+.filter-button {
+    padding: 10px 20px;
+    background-color: rgba(0, 128, 128, 0.316);
+    color: black;
+    border: whitesmoke;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Quicksand;
+    font-weight: bolder;
+}
+
+.filter-button:hover {
+    background-color: rgba(255, 250, 240, 0.803);
+}
+
+.reset-button {
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.152);
+    color: black;
+    border: whitesmoke;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Quicksand;
+    font-weight: bolder;
+}
+
+.reset-button:hover {
+    background-color: rgba(255, 250, 240, 0.739);
+}
+
+/* Activity Cards Section Styling */
+.activity-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    width: 100%;
+    font-weight: bolder
+}
+
+.activity-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bolder;
+    overflow: hidden; 
+}
+
+.activity-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.activity-card h4 {
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.activity-image {
+    width: 90%; 
+    height: auto; 
+    border-radius: 8px; 
+    object-fit: cover; 
+    display: block; 
+    margin-bottom: 10px; 
+    display: inline-block; 
+
+}
